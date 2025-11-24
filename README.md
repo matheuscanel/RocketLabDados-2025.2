@@ -1,48 +1,36 @@
-# RocketLabDados-2025.2  
-Repositório Dedicado para Disponibilização das Atividades do Programa Rocket Lab de Dados 2025.2
+# Projeto de Engenharia de Dados - Olist E-commerce
 
-## 🚀 Atividades de Dados – Fork, Download e Execução
+Este projeto reúne três atividades desenvolvidas para aprimorar habilidades em **Engenharia de Dados**, utilizando **Python**, **PySpark** e **Databricks**, aplicando conceitos de **Arquitetura Medalhão** (Bronze, Silver, Gold) e práticas de **Data Lake** e **Data Warehouse**.
 
-Bem-vindo(a)! Este repositório reúne atividades práticas. Para utilizá-las, faça um fork deste repositório, baixe/clone os materiais a partir do seu fork e importe-os no Databricks para executar as tarefas no ambiente
-> **Importante:** o foco aqui é somente em fork/clone e execução. **Não é necessário** abrir Pull Request para o repositório original.
+## Estrutura do Projeto
+
+1. **Atividade 1 – Conceitos de PySpark**
+   - Exploração de dados com **RDDs e DataFrames**.
+   - Transformações e ações em PySpark.
+   - Manipulação de datasets e aplicação de funções para limpeza e preparação de dados.
+
+2. **Atividade 2 – Pipeline Bronze e Silver**
+   - Criação da **camada Bronze** com dados brutos do dataset Olist.
+   - Limpeza inicial e padronização de dados para a **camada Silver**.
+   - Integração de tabelas e enriquecimento de informações.
+   - Garantia de qualidade e consistência dos dados.
+
+3. **Atividade 3 – Camada Gold e Visualização**
+   - Modelagem de dados para análise estratégica.
+   - Construção da **camada Gold**, focada em métricas e insights.
+   - Visualização inicial de dados para suporte à tomada de decisão.
+
+## Tecnologias e Conceitos Utilizados
+
+- **Python** e **PySpark** para processamento distribuído de dados.
+- **Databricks** para desenvolvimento e orquestração de pipelines.
+- **Arquitetura Medalhão**: Bronze (raw), Silver (cleaned), Gold (business-ready).
+- **Data Lake** para armazenamento escalável.
+- **Data Warehouse** para análise e suporte à decisão.
+- **Visualização de Dados** para insights estratégicos.
+
+## Objetivo do Projeto
+
+Demonstrar a aplicação prática de **conceitos de engenharia de dados**, desde a manipulação de dados brutos com PySpark até pipelines completas com camadas Bronze, Silver e Gold, preparando informações valiosas para análises estratégicas.
 
 ---
-
-## 🧭 Estrutura do Repositório
-
-- O repositório terá, na estrutura, **uma pasta para cada atividade**, contendo todas as informações necessárias para sua realização (**notebook, datasets, etc.**).
-- A pasta **`Atividade01 - Pyspark/dados/`** contém os **datasets** necessários para a Atividade 01.
-  - Exemplo de estrutura:
-    ```
-    /
-    └─ Atividade01 - Pyspark/
-       ├─ dados/
-       │  ├─ fut_players_data.csv
-       │  ├─ metal_bands.csv
-       │  └─ pokemnon_data.csv
-       └─ Atividade1_PySpark.ipynb
-    ```
-
----
-
-## 🧪 Atividades
-Você deverá **importar as bases de dados e o notebook** contidos neste repositório no **Databricks** para realizar as atividades por lá.
-
-- **Dia 30/10**: disponibilizaremos a **Atividade 01** (prazo de submissão **até 05/11 às 23h59**).
-- **Dia 06/11**: disponibilizaremos a **Atividade 02** (prazo de submissão **até 12/11 às 23h59**).
-- **Dia 13/11**: disponibilizaremos a **Atividade 03** (prazo de submissão **até 19/11 às 23h59**).
-
----
-
-## 📦 Entrega
-
-As entregas das atividades serão feitas **exclusivamente via portal da Visagio**:
-
-1. **Deixe seu repositório público** no GitHub.  
-2. **Envie no portal da Visagio o link do seu repositório** contendo:
-   - A **estrutura de pastas** conforme enviada, **conservando os nomes dos arquivos**.  
-   - **Exemplo**:
-     - `Atividade01 - Pyspark/` com a subpasta `dados/` e os três arquivos `.csv`;
-     - `Atividade1_PySpark.ipynb` com as soluções.
-
-> Garanta que o link esteja acessível (repositório público) e que a estrutura esteja exatamente conforme descrito.
