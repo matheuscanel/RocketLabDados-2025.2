@@ -1,36 +1,41 @@
-# Projeto de Engenharia de Dados - Olist E-commerce
+# Projeto de Engenharia de Dados - RocketLabs 2025.2
 
-Este projeto reúne três atividades desenvolvidas para aprimorar habilidades em **Engenharia de Dados**, utilizando **Python**, **PySpark** e **Databricks**, aplicando conceitos de **Arquitetura Medalhão** (Bronze, Silver, Gold) e práticas de **Data Lake** e **Data Warehouse**.
+Este projeto reúne três atividades desenvolvidas como parte da trilha de **Engenharia de Dados**, utilizando **PySpark**, **Databricks** e os princípios da **Arquitetura Medalhão** para construir pipelines completas de dados.
 
-## Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
 
 1. **Atividade 1 – Conceitos de PySpark**
-   - Exploração de dados com **RDDs e DataFrames**.
-   - Transformações e ações em PySpark.
-   - Manipulação de datasets e aplicação de funções para limpeza e preparação de dados.
+   - Manipulação de dados usando DataFrames.
+   - Aplicação de transformações, filtros, joins e agregações.
+   - Exercícios práticos com diferentes datasets para fixação dos principais comandos do PySpark.
 
 2. **Atividade 2 – Pipeline Bronze e Silver**
-   - Criação da **camada Bronze** com dados brutos do dataset Olist.
-   - Limpeza inicial e padronização de dados para a **camada Silver**.
-   - Integração de tabelas e enriquecimento de informações.
-   - Garantia de qualidade e consistência dos dados.
+   - Ingestão dos dados brutos do Olist para a camada Bronze.
+   - Padronização, limpeza e tratamento dos dados na camada Silver.
+   - Criação de um pipeline estruturado transformando dados brutos em dados consistentes e prontos para análise.
 
-3. **Atividade 3 – Camada Gold e Visualização**
-   - Modelagem de dados para análise estratégica.
-   - Construção da **camada Gold**, focada em métricas e insights.
-   - Visualização inicial de dados para suporte à tomada de decisão.
+3. **Atividade 3 – Camada Gold e Orquestração**
+   - Construção da camada Gold com tabelas analíticas de negócio.
+   - Criação de views para análises logísticas, comerciais e temporais.
+   - Orquestração completa dos notebooks (Bronze → Silver → Gold) utilizando Databricks Jobs com execução automatizada.
 
-## Tecnologias e Conceitos Utilizados
+---
 
-- **Python** e **PySpark** para processamento distribuído de dados.
-- **Databricks** para desenvolvimento e orquestração de pipelines.
-- **Arquitetura Medalhão**: Bronze (raw), Silver (cleaned), Gold (business-ready).
-- **Data Lake** para armazenamento escalável.
-- **Data Warehouse** para análise e suporte à decisão.
-- **Visualização de Dados** para insights estratégicos.
+## 🛠️ Tecnologias Utilizadas
 
-## Objetivo do Projeto
+- **Python**  
+- **PySpark**  
+- **Databricks**  
+- **Delta Lake**  
+- **Arquitetura Medalhão** (Bronze, Silver, Gold)
 
-Demonstrar a aplicação prática de **conceitos de engenharia de dados**, desde a manipulação de dados brutos com PySpark até pipelines completas com camadas Bronze, Silver e Gold, preparando informações valiosas para análises estratégicas.
+---
+
+## 🎯 Objetivo do Projeto
+
+Implementar, de ponta a ponta, um fluxo moderno de Engenharia de Dados:  
+desde a manipulação inicial com PySpark, passando pelo tratamento e padronização dos dados, até a criação de estruturas analíticas e a automação de todo o processo.
 
 ---
